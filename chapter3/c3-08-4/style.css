@@ -1,0 +1,11 @@
+div {
+  background-image: url(images/bg-airplane.jpg);
+  background-repeat: no-repeat; /* 画像は繰り返さない */
+  background-size: cover; /* 表示領域を埋めつくすように表示の指定 */
+  height: 100vh;
+  /* ビューポート（画面サイズ）の高さに対する割合。100vhは画面の高さと同じ（100%）を表す */
+}
+p {
+  text-align: center;
+  padding-top: 30px;
+}
