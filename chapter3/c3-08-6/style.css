@@ -1,0 +1,5 @@
+body {
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  background-position: top center; /* 画像を上部センターに表示する設定 */
+}
