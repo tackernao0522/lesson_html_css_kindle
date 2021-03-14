@@ -1,0 +1,15 @@
+p {
+  /* 太い線で実線の指定 */
+  border-width: thick;
+  border-style: solid;
+}
+div {
+  /* 上1px、右4px、下8px、左12pxの実線 */
+  border-width: 1px 4px 8px 12px;
+  border-style: solid;
+}
+
+/*
+キーワード 「thin (細い線)」、「medium (普通の太さ)」、「thick (太い線)」
+数値 数値に 「px」や「rem」、「%」などの単位をつける
+*/
