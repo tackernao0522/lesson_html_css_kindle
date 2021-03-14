@@ -1,0 +1,5 @@
+body {
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  background-position: 30px 80px; /* 画像を左から30px、上から80px移動させる指定 */
+}
