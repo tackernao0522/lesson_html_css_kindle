@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+}
+.item {
+  background: #0bd;
+  color: #fff;
+  padding: 10px;
+}
+
+/* この時点ではグリッドアイテムは縦に並んでいるだけ
+参考 p159
+*/
