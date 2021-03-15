@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-wrap: wrap; /* 折り返し */
+  align-content: space-between; /* 最初と最後の子要素を上下の橋に配置し、残りの要素は均等に間隔をあけて配置 */
+  height: 300px;
+}
+.item {
+  background: #0bd;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
