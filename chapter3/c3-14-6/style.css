@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.item {
+  background: #0bd;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* heightで高さを指定し、そのちょうど中間の部分に要素が並ぶ。
+高さを100vhとすることで、表示領域いっぱいに広げている。 
+参考 p156
+*/
