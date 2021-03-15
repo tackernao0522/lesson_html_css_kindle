@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: flex-end; /* 画面の右端に揃う */
+}
+.item {
+  background: #0bd;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* 参考 p155 */
