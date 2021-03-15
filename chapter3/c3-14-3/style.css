@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: row-reverse; /* 右から左の順に横並びになる */
+}
+.item {
+  background: #0bd;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* 参考 p154 */
