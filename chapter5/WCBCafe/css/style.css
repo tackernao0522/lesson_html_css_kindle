@@ -120,3 +120,8 @@ aside {
   justify-content: space-between;
   margin-bottom: 50%;
 }
+.post-info {
+  position: relative; /* 元居た位置が基準 https://uxmilk.jp/63409 */
+  padding-top: 4px;
+  margin-bottom: 40px;
+}
