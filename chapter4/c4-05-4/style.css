@@ -1,0 +1,86 @@
+/* 共通部分 */
+html {
+  font-size: 100%; /* ユーザーの指定した文字サイズを正しく反映 */
+}
+body {
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.7; /* 行の高さの指定 */
+  color: #432;
+}
+a {
+  text-decoration: none; /* aタグの傍線の指定 */
+}
+img {
+  max-width: 100%; /* 画像の大きさの指定 100%を指定することで、画像が親要素より大きくなることを防ぐ */
+}
+/* HEADER */
+.logo
+{
+  width: 210px;
+  margin-top: 14px;
+}
+.main-nav {
+  display: flex; /* liタグを横並びにする */
+  font-size: 1.25rem;
+  text-transform: uppercase; /* 大文字に変換 */
+  margin-top: 34px;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+.main-nav a {
+  color: #432;
+}
+.main-nav a:hover { /* a:hoverはリンクテキストにカーソルを合わせた時に適用される擬似クラスと呼ばれるもの */
+  color: #0bd;
+}
+.page-header {
+  display: flex; /* 横並びの指定 */
+  justify-content: space-between; /* 両端の設置の指定 */
+}
+.wrapper {
+  max-width: 1100px; /* 横幅最大 100pxの指定 */
+  margin: 0 auto; /* 中央に配置する設定 */
+  padding: 0 4%;
+}
+/* HOME */
+.home-content {
+  /* 画面中央と余白の指定 */
+  text-align: center;
+  margin-top: 10%;
+}
+.home-content p {
+  /* <p>タグへのフォントサイズと余白の指定 */
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
+/* 見出し */
+.page-title {
+  /* page-titleクラスにフォントの指定 */
+  font-size: 5rem;
+  font-family: 'Philosopher', serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+/* ボタン */
+.button {
+  /* フォントや色、角丸、余白の指定 */
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
+}
+.button:hover {
+  background: #0090aa; /* カーソルをボタンに重ねた時の色を指定 */
+}
+/* 大きな背景画像 */
+.big-bg {
+  background-size: cover; /* 画像の縦横の比率を保ったまま画面いっぱいに広げる */
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+
+/* 参考 p188 */
