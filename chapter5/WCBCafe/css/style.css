@@ -165,3 +165,6 @@ article p {
   border-bottom: 2px #0bd solid;
   font-weight: normal;
 }
+aside p {
+  padding: 12px 10px;
+}
