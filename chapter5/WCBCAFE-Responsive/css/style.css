@@ -202,4 +202,11 @@ aside p {
     flex-direction: column; /* 要素を縦並びにする */
     align-items: center; /* 画面中央に配置 */
   }
+  /* NEWS */
+  .news-contents {
+    flex-direction: column;
+  }
+  article, aside {
+    width: 100%;
+  }
 }
