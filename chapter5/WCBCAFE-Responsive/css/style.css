@@ -180,3 +180,9 @@ aside p {
 .sub-menu a:hover {
   color: #0bd;
 }
+
+@media (max-width: 600px) { /* 最大(max)の幅(width)が600pxの時 */
+  h1 {
+    color: #0bd;
+  }
+}
