@@ -88,6 +88,12 @@ img {
 #home .page-title {
   text-transform: none; /* テキストの大文字、小文字、全角の指定。「none」は変換しない指定 */
 }
-
-
-/* 参考 p191 */
+/* NEWS */
+#news {
+  background-image: url(../images/news-bg.jpg);
+  height: 270px;
+  margin-bottom: 40px;
+}
+#news .page-title {
+  text-align: center;
+}
