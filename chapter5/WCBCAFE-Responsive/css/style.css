@@ -110,10 +110,15 @@ footer p {
 /* 記事部分 */
 article {
   width: 60%;
+  order: 2; /* orderプロパティを表示したい順に指定 display: flexの指定がある要素の子要素でしか動作しないので注意 */
 }
 /* サイドバー */
 aside {
   width: 22%;
+  order:3;
+}
+.ad {
+  order: 1;
 }
 .news-contents {
   display: flex;
