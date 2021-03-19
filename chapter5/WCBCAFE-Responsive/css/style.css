@@ -217,6 +217,11 @@ aside p {
   width: 100%;
   object-fit: cover; /* 画像のトリミング */
 }
+/* CONTACT */
+#contact {
+  background-image: url(../images/contact-bg.jpg);
+  min-height: 100vh;
+}
 
 /* モバイル版 */
 @media (max-width: 600px) { /* 最大(max)の幅(width)が600pxの時 */
