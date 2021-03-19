@@ -272,7 +272,7 @@ aside p {
   .grid {
     display: grid;
     gap: 26px;
-    grid-template-columns: repeat(3, 1fr); /* 「1fr」のボックスが1列に３つ並ぶことになる */
+    grid-template-columns: repeat(3, minmax(240px, 1fr)); /* 「1fr」のボックスが1列に３つ並ぶことになる  要素の幅が240pxよりは小さくならず、画面の幅に合わせて伸縮するようにする */
     margin-top: 6%;
     margin-bottom: 50px;
   }
