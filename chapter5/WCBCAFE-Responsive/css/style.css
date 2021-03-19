@@ -201,6 +201,13 @@ aside p {
   font-size: 1.125rem;
   margin: 10px 0 0;
 }
+.grid {
+  display: grid;
+  gap: 26px; /* グリッドアイテムの間に余白をつける */
+  grid-template-columns: 1fr 1fr 1fr; /* frを使うと画面の幅に合わせて伸縮する */
+  margin-top: 6%;
+  margin-bottom: 50px;
+}
 
 /* モバイル版 */
 @media (max-width: 600px) { /* 最大(max)の幅(width)が600pxの時 */
