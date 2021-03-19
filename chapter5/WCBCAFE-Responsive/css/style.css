@@ -285,4 +285,13 @@ aside p {
     margin-top: 6%;
     margin-bottom: 50px;
   }
+  /* スマートフォンサイズで見ると、メニュー同士がちぐはぐな大きさで並べられています。指定した「grid-column」や「grid-row」の範囲の値を
+  　　「auto」にして解消し、画像の高さも「auto」を指定して解消する */
+  .big-box {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .big-box img {
+    height: auto;
+  }
 }
